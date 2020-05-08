@@ -1,0 +1,22 @@
+
+
+ 
+ d1 $ sound "bd sn"
+ d1 $ sound "bd*2 sn"
+
+
+ d1 
+  $ stutWith 2 (0.125*3) ((#lpf 2000).(# room 0.5))
+  $s "~ cp"
+  #gain 1.2
+  hush
+ 
+  
+  
+  
+  
+  hush
+
+
+ 
+
